@@ -37,3 +37,4 @@ BSIT-SystemAdministration-Portfolio
 | Week | Topic | Link |
 |------|-------|------|
 | Week 1 | Building My Professional Environment | [Week01/README.md](Week01/README.md) |
+| Week 2 | Enterprise Infrastructure Planning for a Startup Company | [Week02/README.md](Week02/README.md) |
