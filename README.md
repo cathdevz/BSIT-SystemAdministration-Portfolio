@@ -38,3 +38,4 @@ BSIT-SystemAdministration-Portfolio
 |------|-------|------|
 | Week 1 | Building My Professional Environment | [Week01/README.md](Week01/README.md) |
 | Week 2 | Enterprise Infrastructure Planning for a Startup Company | [Week02/README.md](Week02/README.md) |
+| Week 3 | Enterprise Server Deployment and Operating System Installation | [Week03/README.md](Week03/README.md) |

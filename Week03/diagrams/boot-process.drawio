@@ -1,0 +1,76 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36">
+  <diagram id="boot-process" name="Page-1">
+    <mxGraphModel dx="1935" dy="1128" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="760" pageHeight="1150" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Jv2_mQBvMR_RniMbqLwe-1" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;whiteSpace=wrap;fontColor=#1B2631;" value="UBUNTU BOOT PROCESS FLOWCHART" vertex="1">
+          <mxGeometry height="30" width="900" x="610.0032824707031" y="530.0033587646485" as="geometry" />
+        </mxCell>
+        <mxCell id="Jv2_mQBvMR_RniMbqLwe-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d98a2b;fontStyle=1;fontSize=11;" value="POWER ON&#xa;(1)" vertex="1">
+          <mxGeometry height="70" width="110" x="368.3332824707031" y="642.8333587646484" as="geometry" />
+        </mxCell>
+        <mxCell id="Jv2_mQBvMR_RniMbqLwe-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dbe9ff;strokeColor=#5b8bd4;fontStyle=1;fontSize=11;" value="BIOS / UEFI&#xa;INITIALIZATION&#xa;(POST)&#xa;(2)" vertex="1">
+          <mxGeometry height="70" width="130" x="508.3332824707031" y="642.8333587646484" as="geometry" />
+        </mxCell>
+        <mxCell id="Jv2_mQBvMR_RniMbqLwe-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dbe9ff;strokeColor=#5b8bd4;fontStyle=1;fontSize=11;" value="BOOT DEVICE&#xa;DETECTION&#xa;(3)" vertex="1">
+          <mxGeometry height="70" width="130" x="668.3332824707031" y="642.8333587646484" as="geometry" />
+        </mxCell>
+        <mxCell id="Jv2_mQBvMR_RniMbqLwe-6" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2b8;strokeColor=#c9a227;fontStyle=1;fontSize=10;" value="BOOT&#xa;DEVICE&#xa;FOUND?" vertex="1">
+          <mxGeometry height="90" width="150" x="828.3332824707031" y="632.8333587646484" as="geometry" />
+        </mxCell>
+        <mxCell id="Jv2_mQBvMR_RniMbqLwe-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffc2c2;strokeColor=#d13b3b;fontStyle=1;fontSize=10;" value="NO BOOTABLE DEVICE&#xa;Error message shown" vertex="1">
+          <mxGeometry height="55" width="190" x="808.3332824707031" y="830.0033587646484" as="geometry" />
+        </mxCell>
+        <mxCell id="Jv2_mQBvMR_RniMbqLwe-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#3fa354;fontStyle=1;fontSize=11;" value="BOOT LOADER&#xa;(GRUB)&#xa;(4)" vertex="1">
+          <mxGeometry height="70" width="130" x="1040.0032824707032" y="642.8333587646484" as="geometry" />
+        </mxCell>
+        <mxCell id="Jv2_mQBvMR_RniMbqLwe-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#3fa354;fontStyle=1;fontSize=11;" value="LINUX&#xa;KERNEL&#xa;(5)" vertex="1">
+          <mxGeometry height="70" width="130" x="1200.0032824707032" y="642.8333587646484" as="geometry" />
+        </mxCell>
+        <mxCell id="Jv2_mQBvMR_RniMbqLwe-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#7a5dc7;fontStyle=1;fontSize=11;" value="INIT / SYSTEMD&#xa;(PID 1)&#xa;(6)" vertex="1">
+          <mxGeometry height="70" width="130" x="1360.0032824707032" y="642.8333587646484" as="geometry" />
+        </mxCell>
+        <mxCell id="Jv2_mQBvMR_RniMbqLwe-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#7a5dc7;fontStyle=1;fontSize=11;" value="SERVICES START&#xa;(SSH, etc.)&#xa;(7)" vertex="1">
+          <mxGeometry height="70" width="130" x="1530.0032824707032" y="642.8333587646484" as="geometry" />
+        </mxCell>
+        <mxCell id="Jv2_mQBvMR_RniMbqLwe-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#c9f2cf;strokeColor=#3fa354;fontStyle=1;fontSize=11;" value="LOGIN&#xa;PROMPT&#xa;(8)" vertex="1">
+          <mxGeometry height="70" width="110" x="1690.0032824707032" y="642.8333587646484" as="geometry" />
+        </mxCell>
+        <mxCell id="Jv2_mQBvMR_RniMbqLwe-13" edge="1" parent="1" source="Jv2_mQBvMR_RniMbqLwe-3" style="endArrow=classic;html=1;strokeColor=#444444;strokeWidth=2;" target="Jv2_mQBvMR_RniMbqLwe-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Jv2_mQBvMR_RniMbqLwe-14" edge="1" parent="1" source="Jv2_mQBvMR_RniMbqLwe-4" style="endArrow=classic;html=1;strokeColor=#444444;strokeWidth=2;" target="Jv2_mQBvMR_RniMbqLwe-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Jv2_mQBvMR_RniMbqLwe-15" edge="1" parent="1" source="Jv2_mQBvMR_RniMbqLwe-5" style="endArrow=classic;html=1;strokeColor=#444444;strokeWidth=2;" target="Jv2_mQBvMR_RniMbqLwe-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Jv2_mQBvMR_RniMbqLwe-16" edge="1" parent="1" source="Jv2_mQBvMR_RniMbqLwe-6" style="endArrow=classic;html=1;strokeColor=#d13b3b;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Jv2_mQBvMR_RniMbqLwe-7" value="No">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Jv2_mQBvMR_RniMbqLwe-17" edge="1" parent="1" source="Jv2_mQBvMR_RniMbqLwe-6" style="endArrow=classic;html=1;strokeColor=#444444;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Jv2_mQBvMR_RniMbqLwe-8" value="Yes">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Jv2_mQBvMR_RniMbqLwe-18" edge="1" parent="1" source="Jv2_mQBvMR_RniMbqLwe-8" style="endArrow=classic;html=1;strokeColor=#444444;strokeWidth=2;" target="Jv2_mQBvMR_RniMbqLwe-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Jv2_mQBvMR_RniMbqLwe-19" edge="1" parent="1" source="Jv2_mQBvMR_RniMbqLwe-9" style="endArrow=classic;html=1;strokeColor=#444444;strokeWidth=2;" target="Jv2_mQBvMR_RniMbqLwe-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Jv2_mQBvMR_RniMbqLwe-20" edge="1" parent="1" source="Jv2_mQBvMR_RniMbqLwe-10" style="endArrow=classic;html=1;strokeColor=#444444;strokeWidth=2;" target="Jv2_mQBvMR_RniMbqLwe-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Jv2_mQBvMR_RniMbqLwe-21" edge="1" parent="1" source="Jv2_mQBvMR_RniMbqLwe-11" style="endArrow=classic;html=1;strokeColor=#444444;strokeWidth=2;" target="Jv2_mQBvMR_RniMbqLwe-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Jv2_mQBvMR_RniMbqLwe-22" parent="1" style="text;whiteSpace=wrap;fontColor=light-dark(default, #6a6262);" value="The 8 stages of the Ubuntu boot process - from pressing the power button to reaching the login prompt" vertex="1">
+          <mxGeometry height="50" width="560" x="798.33" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="Jv2_mQBvMR_RniMbqLwe-23" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;br&gt;&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="120" width="180" x="1040" y="560" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
